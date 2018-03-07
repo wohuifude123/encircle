@@ -3,9 +3,7 @@ package com.project.start;
 import com.project.start.listener.DashBoardListener;
 import com.project.service.VerticleMain;
 
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class GraduationMain {
 
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class GraduationMain {
             myThread1.start();
 
         } catch (Exception e) {
-            log.error("start error",e);
+            //log.error("start error",e);
         }
 
         VerticleMain.deployVertx();
